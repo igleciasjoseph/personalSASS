@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+body #bg {
+  clip-path: polygon(100% 0, 100% 75%, 54% 100%, 0 100%, 0 0);
+  background-color: #0B132B;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+body section#nav {
+  display: block;
+  height: 30px;
+  width: 100%;
+  text-align: right;
+  font-size: 1.5em;
+  padding: 0.5em;
+  position: absolute;
+  margin: 0 0 1em 0;
+}
+body section#header {
+  display: block;
+  padding: 2em;
+  height: 300px;
+  width: 100%;
+}
+body section#header .icon-header {
+  margin: 2em 0 1em 0;
+  display: block;
+  width: 100%;
+  font-size: 2em;
+}
+body section#header .icon-header span {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
