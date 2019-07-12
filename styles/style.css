@@ -41,5 +41,25 @@ body section#header .icon-header {
 body section#header .icon-header span {
   border-radius: 50%;
 }
+body section#header .header-text h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1em;
+}
+body section#header .header-text h1 span {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+}
+body section#header .header-text hr {
+  margin-bottom: 1em;
+}
+body #bg2 {
+  background-color: #0B132B;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
 
 /*# sourceMappingURL=style.css.map */
